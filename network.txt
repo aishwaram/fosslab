@@ -1,0 +1,4 @@
+ifconfig -a
+sudo ifconfig wl01 
+sudo ifconfig wl01 192.168.1.157
+ifconfig wl01
