@@ -1,0 +1,49 @@
+All currently available interfaces
+eno1      Link encap:Ethernet  HWaddr 48:ba:4e:ab:d2:cd  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:769 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:769 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:174048 (174.0 KB)  TX bytes:174048 (174.0 KB)
+
+wlo1      Link encap:Ethernet  HWaddr d4:6a:6a:1e:35:99  
+          inet addr:192.168.2.177  Bcast:192.168.3.255  Mask:255.255.252.0
+          inet6 addr: fe80::a38b:d863:96d6:5eb9/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:41989 errors:0 dropped:429 overruns:0 frame:0
+          TX packets:8804 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:11047861 (11.0 MB)  TX bytes:1568122 (1.5 MB)
+
+
+Temporarily configuring the IP Address...
+[sudo] password for aishwarya: 
+
+Verification of the set IP address...
+wlo1      Link encap:Ethernet  HWaddr d4:6a:6a:1e:35:99  
+          inet addr:192.168.1.205  Bcast:192.168.3.255  Mask:255.255.252.0
+          inet6 addr: fe80::a38b:d863:96d6:5eb9/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:42270 errors:0 dropped:429 overruns:0 frame:0
+          TX packets:8804 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:11099444 (11.0 MB)  TX bytes:1568122 (1.5 MB)
+
+
+Configuring a default gateway...
+
+Verifying default gateway configuration...
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         192.168.0.8     0.0.0.0         UG    0      0        0 wlo1
+192.168.0.0     0.0.0.0         255.255.252.0   U     0      0        0 wlo1
+
