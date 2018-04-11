@@ -1,0 +1,4 @@
+11 Apr Wed
+Hello Worold! 
+Average for given numbers: 20
+20 is average
