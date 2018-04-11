@@ -1,0 +1,39 @@
+ls
+ls-l
+ls ch*.doc
+ls-a
+nano
+mkdir
+cat
+wc
+cp
+mv
+rm
+cd
+pwd
+rmdir
+a.
+a..
+chmod
+chown
+chgrp
+echo
+grep
+sort
+pipes
+whoami
+cd~/
+who -q
+uname
+cat /etc/shells
+less /proc/cpuinfo
+cat /proc/meminfo
+date
+cal
+tty
+clear
+man
+touch
+file/etc/passwod
+ln
+
